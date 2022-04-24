@@ -1,0 +1,251 @@
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+}
+
+h1 { 
+    font-size: 150%;
+}
+
+#faqs {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+h2 {
+    font-size: 120%;
+    padding: .25em 0 .25em 25px;
+    cursor: pointer;
+    background: url(../images/country-page/plus.png) no-repeat left center;
+}
+
+h2.minus {
+    background: url(../images/country-page/minus.png) no-repeat left center;
+}
+
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+a:focus, a:hover { 
+	color: blue; 
+}
+
+.div1 {
+    display: none;
+}
+.div1.open {
+    display: block;
+}
+
+ul {
+    padding-left: 45px;
+}
+
+li {
+    padding-bottom: .25em;
+}
+
+.pa1 {
+    text-align: justify;
+    padding-bottom: .25em;
+    padding-left: 25px;
+}
+
+.repPar {
+    font-size: 16pt;
+    font-weight: bold;
+    color:rgb(15, 9, 9);
+}
+
+.emPar {
+    font-family: Arial;
+    font-size: 12pt;
+    margin-top: -1em;
+}
+
+#email_1 {
+    width: 18em;
+    font-size: 11pt;
+    padding: 0.47em
+}
+
+#submit_form{
+    font-family: Arial;
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: red;
+    padding: 0.4em;
+    height: 2.16em;
+}
+
+.signPar {
+    font-family: Arial;
+    font-size: 9pt;
+    padding-bottom: 0.3em;
+}
+
+span {
+    color: red;
+    font-size: 11pt;
+    padding-left: 0.5em;
+}
+
+@media only screen and (min-width: 375px) {
+    h1 { 
+        font-size: 100%;
+    }
+
+    h2 {
+        font-size: 100%;
+    } 
+
+    .repPar {
+        font-size: 12pt;
+    }
+
+    .emPar {
+        font-family: Arial;
+        font-size: 10pt;
+        margin-top: -1em;
+    }
+
+    #submit_form {
+        width: 7em;
+        height: 2em;
+        padding: 0.1em;
+        font-size: 9pt;
+    }
+
+    #email_1 {
+        width: 8.8em;
+        height: 2em;
+        padding: 0.1em;
+        font-size: 9pt;
+    }
+
+    span {
+        font-size: 10pt;
+        padding-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    h1 { 
+        font-size: 120%;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+    .repPar {
+        font-size: 12.5pt;
+    }
+
+    .emPar {
+        font-family: Arial;
+        font-size: 10pt;
+        margin-top: -1em;
+    }
+
+    #submit_form {
+        width: 7em;
+        height: 2em;
+        padding: 0.1em;
+        font-size: 9pt;
+    }
+
+    #email_1 {
+        width: 9.5em;
+        height: 1.9em;
+        font-size: 9pt;
+    }
+
+    span {
+        font-size: 9pt;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+
+    #email_1 {
+        width: 9em;
+        height: 1.83em;
+        font-size: 9pt;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+
+    #email_1 {
+        width: 16em;
+        height: 1.9em;
+        font-size: 9pt;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    #email_1 {
+        width: 16em;
+        height: 1.8em;
+        font-size: 9pt;
+        padding: 0.1em;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+
+    #email_1 {
+        width: 16em;
+        height: 1.9em;
+        font-size: 9pt;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+
+    #email_1 {
+        width: 16em;
+        height: 1.8em;
+        font-size: 9pt;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    h1 { 
+        font-size: 150%;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+
+    .repPar {
+        font-size: 15pt;
+    }
+
+    .emPar {
+        font-size: 11.5pt;
+    }
+
+    #email_1 {
+        width: 18em;
+        height: 2.15em;
+        font-size: 11pt;
+        padding: 0.45em;
+    }
+
+    #submit_form{
+        height: 2.15em;
+        font-weight: bold;
+        font-size: 11pt;
+    }
+
+    span {
+        font-size: 11pt;
+        padding-left: 0.5em;
+    }
+}

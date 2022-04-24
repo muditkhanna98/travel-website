@@ -1,0 +1,338 @@
+/*Setup for main*/
+
+main {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+}
+
+/*Setup for h2*/
+main .header2 {
+    font-size: 15pt;
+    font-weight:normal;
+    text-align: center;
+    margin-top: -2em;
+    display: grid;
+}
+
+/*Setup for .p1*/
+.p1 {
+    text-align: justify;
+    font-size: 13pt;
+    line-height: 1.5em;
+    display: grid;
+}
+
+/*Setup for .header3*/
+.header3 {
+    font-size: 16pt;
+    font-weight:normal;
+    text-align: center;
+    display: grid;
+}
+
+/*Setup for .p2*/
+.p2, .p3 {
+    text-align: justify;
+    font-size: 13pt;
+    line-height: 1.5em;
+    display: grid;
+}
+
+/*Setup for pictures*/
+.slider {
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    border-radius: 20px;
+}
+
+#image_rollovers img {
+    border-radius: 20px;
+}
+
+ul {
+	padding-left: 0;
+	text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+#slideshow {
+    border-radius: 20px;
+}
+
+.form1 {
+    text-align: left;
+}
+
+.cmtHeader {
+    font-size: 13.5pt;
+    text-align: left;
+} 
+
+input {
+    margin-bottom: 0.5em;
+    width: 20em;
+    font-size: 11pt;
+}
+
+label {
+    font-size: 11pt;
+    padding-bottom: 0.5em;
+}
+
+#message {
+    height: 10em;
+}
+
+#submit_form, #clear_form {
+    width: 9.8em;
+}
+
+#submit_form {
+    margin-left: -0.5em;
+}
+
+.frmSpan {
+    color: red;
+    font-size: 11pt;
+}
+
+@media only screen and (min-width: 375px) {
+
+    main .header2 {
+        font-size: 13pt;
+        text-align: left;
+        padding-left: 0.5em;
+    }
+    
+    .p1 {
+        font-size: 12pt;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    #image_rollovers img {
+        width: 40%;
+    }
+    
+    #slideshow {
+        width: 60%;
+        height: 90%;
+    }
+
+    .header3 {
+        font-size: 13pt;
+        text-align: left;
+        padding-left: 0.5em;
+    }
+
+    .p2, .p3 {
+        font-size: 12pt;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .cmtHeader {
+        font-size: 12.5pt;
+        padding-left: 0.5em;
+        margin-bottom: -0.5em;
+    } 
+    
+    input {
+        width: 15em;
+        margin-left: 0.5em;
+    }
+    
+    label {
+        padding-left: 0.5em;
+    }
+    
+    #submit_form, #clear_form {
+        width: 7.2em;
+    }
+
+    .frmSpan {
+        font-size: 10pt;
+    }
+}
+
+@media only screen and (min-width: 393px) {
+
+    input {
+        padding-bottom: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    
+    main .header2 {
+        font-size: 13pt;
+        text-align: left;
+        padding-left: 0.5em;
+    }
+    
+    .p1 {
+        font-size: 12pt;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    #image_rollovers img {
+        width: 40%;
+    }
+    
+    #slideshow {
+        width: 60%;
+        height: 90%;
+    }
+
+    .header3 {
+        font-size: 13pt;
+        text-align: left;
+        padding-left: 0.5em;
+    }
+
+    .p2, .p3 {
+        font-size: 12pt;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .cmtHeader {
+        font-size: 12.5pt;
+        padding-left: 0.5em;
+        margin-bottom: -0.5em;
+    } 
+    
+    input {
+        width: 15em;
+        margin-left: 0.5em;
+    }
+    
+    label {
+        padding-left: 0.5em;
+    }
+    
+    #submit_form, #clear_form {
+        width: 7.2em;
+    }
+
+    .frmSpan {
+        font-size: 10pt;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+
+    main .header2 {
+        text-align: center;
+
+    }
+
+    .header3 {
+        text-align: center;
+    }
+
+    #image_rollovers img {
+        width: 40%;
+    }
+    
+    #slideshow {
+        width: 50%;
+        height: 90%;
+    }
+
+    input {
+        margin-left: 0.6em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    main .header2 {
+        text-align: center;
+
+    }
+
+    .header3 {
+        text-align: center;
+    }
+
+    input {
+        margin-left: 0.8em;
+    }
+
+    label {
+        padding-left: 0.8em;
+    }
+    
+    #submit_form, #clear_form {
+        width: 7em;
+    }
+}
+
+@media only screen and (min-width: 912px) {
+
+    input {
+        margin-top: 0.5em;
+    }
+
+    #message {
+        margin-top: 0.9em;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+
+    main .header2 {
+        text-align: center;
+
+    }
+
+    .header3 {
+        text-align: center;
+    }
+
+    #submit_form, #clear_form {
+        padding: 0.2em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    #image_rollovers img {
+        width: 35%;
+    }
+    
+    #slideshow {
+        width: 45%;
+    }
+
+    input {
+        margin-bottom: 0.2em;
+        width: 20em;
+        font-size: 11pt;
+        padding: 0.2em
+    }
+    
+    label {
+        font-size: 11pt;
+    }
+    
+    #message {
+        height: 10em;
+    }
+       
+    #submit_form, #clear_form {
+        width: 9.5em;
+        padding: 0.3em;
+    }
+
+    .frmSpan {
+        font-size: 11pt;
+    }
+}

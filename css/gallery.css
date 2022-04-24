@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+}
+.shuffle {
+    position: fixed;
+    right: 17px;
+    bottom: 9px;
+    color: #ffffff;
+    border: 1px solid #e66465;
+    background: #e66465;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+@media (max-width: 1025px) {
+    .shuffle {
+        opacity: 0.7;
+    }
+
+}

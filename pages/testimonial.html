@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Tourism page</title>
+  <link rel="shortcut icon" href="../images/travel-icon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <script src="../js/w3schoolsHTMLIncluder.js"></script>
+  <link rel="stylesheet" href="../css/normalize.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/nav.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../css/index.css" />
+  <link rel="stylesheet" href="../css/testimonial.css" />
+</head>
+<body>
+  <!--  including header -->
+  <header>
+    <div w3-include-html="header.html"></div>
+  </header>
+
+  <!--  including navigation -->
+  <nav>
+    <div w3-include-html="nav.html"></div>
+  </nav>
+
+  <!--main part -->
+  <main id="testimonail">
+    <div class="main-content">
+      <h1 id="title"></h1>
+      <!-- First Row -->
+      <div class="row">
+        <div class="col-6">
+          <div class="testimonial-box">
+            <div class="testimonial shade1">
+              <i class="fa fa-quote-right"></i>
+              <span class="testimonial-text">Great website !! Everything one needs to know before visiting a country.</span>
+              <div class="testimonial-user">
+                <img src="../images/testimonial/2.jpg" alt="user-img" class="user-img">
+                <div class="user-info">
+                  <span class="user-name">Nora</span>
+                  <div class="user-job-details">
+                    <span class="user-job">Student</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="testimonial-box">
+            <div class="testimonial shade2">
+              <i class="fa fa-quote-right"></i>
+              <span class="testimonial-text">Amazing content and helps one to plan accordingly in advance.</span>
+              <div class="testimonial-user">
+                <img src="../images/testimonial/1.jpg" alt="user-img" class="user-img">
+                <div class="user-info">
+                  <span class="user-name">Ankit</span>
+                  <div class="user-job-details">
+                    <span class="user-job">Owner - SWD</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Close first row -->
+
+      <!-- Second row -->
+      <div class="row">
+        <div class="col-6">
+          <div class="testimonial-box">
+            <div class="testimonial shade3">
+              <i class="fa fa-quote-right"></i>
+              <span class="testimonial-text">Just home from the wonderful trip you recommended to Turkey.</span>
+              <div class="testimonial-user">
+                <img src="../images/testimonial/3.jpg" alt="user-img" class="user-img">
+                <div class="user-info">
+                  <span class="user-name">Kelady Smith</span>
+                  <div class="user-job-details">
+                    <span class="user-job">Professor - California</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="testimonial-box">
+            <div class="testimonial shade4">
+              <i class="fa fa-quote-right"></i>
+              <span class="testimonial-text">I'm killing time while I wait for life to shower me with meaning and happiness.</span>
+              <div class="testimonial-user">
+                <img src="../images/testimonial/4.png" alt="user-img" class="user-img">
+                <div class="user-info">
+                  <span class="user-name">Shizon Mask</span>
+                  <div class="user-job-details">
+                    <span class="user-job">Owner - Krestle</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!--including footer-->
+  <footer>
+    <div w3-include-html="footer.html"></div>
+  </footer>
+
+  <script>
+    includeHTML();
+  </script>
+  <!--scroll to top button-->
+  <button onclick="scrollToTop()" class="to-top fa-2x">
+    <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
+  </button>
+  <script src="../js/main-javascript.js"></script>
+  <script src="../js/testimonial.js"></script>
+</body>
+</html>

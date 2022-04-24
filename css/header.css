@@ -1,0 +1,104 @@
+.container {
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+    background-color:lightsteelblue;
+}
+
+.container video {
+    width: 100%;
+    height: 100%;
+}
+
+.text-box {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: steelblue;
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode:multiply;
+}
+
+@media only screen and (min-width: 280px) {
+    
+    .text-box {
+        width: 100%;
+        font-size: 6pt;
+    }
+
+}
+
+@media only screen and (min-width: 360px) {
+    
+      .text-box {
+        width: 100%;
+        font-size: 6pt;
+    }
+
+}
+
+@media only screen and (min-width: 375px) {
+    
+    .text-box {
+        width: 100%;
+        font-size: 6pt;
+    }
+
+}
+
+@media only screen and (min-width: 414px) {
+    
+    .text-box {
+        width: 100%;
+        font-size: 6pt;
+    }
+
+}
+
+@media only screen and (min-width: 540px) {
+    
+    .text-box {
+        width: 100%;
+        font-size: 8pt;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .text-box {
+        font-size: 12pt;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    
+    .text-box {
+        font-size: 12pt;
+    }
+}
+
+@media only screen and (min-width: 912px) {
+    
+    .text-box {
+        font-size: 12pt;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    .text-box {
+        font-size: 20pt;
+    }
+
+}
+
+

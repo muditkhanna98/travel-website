@@ -1,0 +1,219 @@
+main {
+  max-width: 100%;
+}
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Make the images invisible by default */
+.containers {
+  display: none;
+}
+
+.containers > img {
+  width: 100%;
+  height: 450px;
+}
+
+/* forward & Back buttons */
+.Back,
+.forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover,
+.forward:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable,
+.dots:hover {
+  background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 2;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 2;
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 470px 1000px;
+}
+
+.place-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.place-items > figure > figcaption {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+aside > ol {
+  list-style-type: circle;
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+
+aside > ol > li > a {
+  text-decoration: none;
+  color: rgb(33, 100, 167);
+}
+
+article > p {
+  width: 50rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 400px;
+  }
+
+  .place-items > p,
+  img {
+    width: 25rem;
+  }
+
+  aside {
+    width: 15rem;
+  }
+
+  .modal {
+    width: 30%;
+    height: 30%;
+  }
+
+  form > input {
+    width: 10rem;
+  }
+}
+
+form > label {
+  float: left;
+}
+
+label {
+  width: 10em;
+  font-weight: bold;
+}
+
+input {
+  margin: 0 0 0.2rem 0.2rem;
+  width: 30rem;
+  height: 2rem;
+  border-radius: 0.8rem;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 200px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: whitesmoke;
+  border-radius: 2.5rem;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+#submitHeading {
+  display: none;
+}
+
+#error-alert {
+  color: red;
+  margin-left: 0.5rem;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#submit {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: black;
+  width: 8rem;
+  color: white;
+  border-radius: 0.8rem;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

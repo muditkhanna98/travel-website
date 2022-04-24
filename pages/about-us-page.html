@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>About Us Page</title>
+    <link rel="shortcut icon" href="../images/travel-icon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script
+      type="text/javascript"
+      src="../js/w3schoolsHTMLIncluder.js"
+    ></script>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/about-us-page.css" />
+  </head>
+
+  <body>
+    <header>
+      <div w3-include-html="header.html"></div>
+    </header>
+
+    <nav>
+      <div w3-include-html="nav.html"></div>
+    </nav>
+
+    <!--About Us main page-->
+    <main>
+      <!--Header settings-->
+      <h2 class="header2">ABOUT US</h2>
+
+      <!--Paragraph settings-->
+      <p class="p1">
+          A comprehensive guide to the world’s best travel destinations, its
+          print heritage stretches back 30 years, with the online portal
+          reaching its 23-year anniversary in 2022. It covers all aspects, from
+          accomodations, places to visit, galleries, local cuisines, how to get
+          around the country and traveller's testimonials.
+      </p>
+
+      <!--Image rollover for the About Us-->
+
+      <ul id="image_rollovers">
+        <li><img src="/images/about-us-page images/museum.png" alt="" id="/images/about-us-page images/green.png"></li>
+        <li><img src="/images/about-us-page images/koldalen.png" alt="" id="/images/about-us-page images/stay.png"></li>
+     </ul>
+
+      <!--Header for Who we are-->
+      <h2 class="header3">WHO WE ARE</h2>
+
+      <!--Paragraph settings-->
+      <p class="p2">
+          ABC is a pioneering global travel brand that’s provided trusted travel
+          advice since 1992, when founder Uncle Sam established the ABC Travel
+          Guide to several countries such as China, France, Spain, Japan,
+          Thailand and Turkey. Combining a journalistic approach with an
+          understanding of what travellers really need to know, the website's
+          instant success quickly covered half a dozen of destinations,
+          attracting a loyal readership hungry for ABC Travel Guides’ trademark
+          “tell-it-like-it-is” ethos.
+      </p>
+
+      <!--Paragraph settings-->
+      <p class="p3">
+          In November 2017, ABC Travel Guides became part of Apa Publications,
+          joining Insight Guides and Berlitz Publishing, and expanding to become
+          a full service travel platform, offering our ground-breaking guides.
+      </p>
+
+       <!--Images for Who we are-->
+      <div class="slider">
+        <a href="../pages/about-us-page.html"><img src="../images/about-us-page images/beach.png" name="slideshow" id="slideshow" width="350" height="350"></a>
+      </div>
+
+      <!--Header for Our Team-->
+      <h2 class="header3">OUR TEAM</h2>
+
+      <!--Paragraph settings-->
+      <p class="p2">
+          Today ABC Travel Guides is a world-renowned, world-respected hub for
+          everything a traveller needs, from finding great accomodations and
+          holiday-of-a-lifetime locations featured on our award-winning website,
+          directions, galleries and foods to discover. Our travel guide platform
+          provides independent-minded travellers with access from our experts
+          around the globe so the trip you’ve always dreamed of is but a click
+          away.And our travel-guides roots are as strong as ever too. We publish
+          almost a lot of information from 6 countries.
+      </p>
+
+      <!--Paragraph settings-->
+      <p class="p2">
+          We at ABC's help you experience your travel destinations the way
+          locals do. Whether you're venturing close to home or across the globe,
+          whether your budget is limited or limitless, we strive to live up to
+          your discerning approach to travel by delivering the most candid and
+          reliable information on our website. Like we said, we’re a one-stop
+          hub for everything a traveller needs.
+      </p>
+
+      <div class="cmtDiv">
+        <h2 class="cmtHeader">Do you have comments or suggestions?</h2>
+        <br />
+      </div>
+  
+      <div class="form1">
+        <form id="email_form" name="email_form" 
+              action="comments.html" method="get">
+
+            <div class="replyDiv">
+              <input type="text" id="email_1" name="email_1" value="Email Address">
+              <span class="frmSpan">*</span>  
+            </div>
+
+            <div class="replyDiv">
+                <input type="text" id="name_2" name="name_2" value="Name">
+                <span class="frmSpan">*</span>
+            </div><br/>
+
+            <div class="replyDiv">
+              <label>Comment</label><br />
+              <input type="text" id="message" name="message">
+                <span class="frmSpan">*</span>
+            </div>
+
+            <div class="btnDiv">
+                <label>&nbsp;</label>
+                <input type="button" id="submit_form" value="Submit">
+                <input type="button" id="clear_form" value="Clear Form">
+            </div> 
+
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div w3-include-html="footer.html"></div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="../js/about-us.js"></script>
+
+    <script>
+      includeHTML();
+    </script>
+
+    <button onclick="scrollToTop()" class="to-top fa-2x">
+    <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
+    </button>
+    <script src="../js/main-javascript.js"></script>
+  </body>
+</html>

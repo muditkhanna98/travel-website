@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tourist tips</title>
+    <link rel="shortcut icon" href="../images/travel-icon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="../js/w3schoolsHTMLIncluder.js"></script>
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/header.css"/>
+    <link rel="stylesheet" href="../css/nav.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="stylesheet" href="../css/tips.css"/>
+</head>
+<body>
+<header>
+    <div w3-include-html="header.html"></div>
+</header>
+<nav>
+    <div w3-include-html="nav.html"></div>
+</nav>
+<main>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'before')" id="defaultOpen">Before you go</button>
+        <button class="tablinks" onclick="openCity(event, 'travel')">Travel document</button>
+        <button class="tablinks" onclick="openCity(event, 'checkin')">Online check-in</button>
+        <button class="tablinks" onclick="openCity(event, 'insurance')">Insurance</button>
+        <button class="tablinks" onclick="openCity(event, 'internet')">Internet and phone calls</button>
+        <button class="tablinks" onclick="openCity(event, 'paying')">Paying onboard</button>
+    </div>
+    <div id="before" class="tabcontent">
+
+        <h3>Before you go</h3>
+
+        <div class="tab-img">
+            <img src="../images/tips/before-you-go.jpg" alt="Before you go">
+        </div>
+        <p>
+            With such an incredible range of cruise styles and types, onboard amenities, as well as a world of exotic
+            destinations and ports of call, it’s no wonder cruise vacations continue to grow in popularity.
+        </p>
+        <p>
+            As your expert travel planners, the specialists at our Travel Agency want to ensure you enjoy the very
+            best cruise experience, so we’ve put together this handy checklist for before you go.
+        </p>
+        <p>
+            Have a specific question, or want to know more? Simply contact your Travel Agency professional.
+        </p>
+    </div>
+    <div id="travel" class="tabcontent">
+        <h3>Pack the right travel document</h3>
+        <div class="tab-img">
+            <img src="../images/tips/travel-documents1.jpg" alt="Travel Documents">
+        </div>
+        <p>You’ll need a passport that’s valid for at least six months beyond your expected date of departure. Depending
+            on where you’re travelling to, as well as your ship’s ports of call, you may also need travel Visas.</p>
+
+        <p>If you’re traveling with a minor, and you’re not the parents or guardians, you’ll need a completed and signed
+            Parent/Guardian release form before embarking on your cruise.</p>
+
+        <p>Of course, be sure to also print and bring with you any other necessary documentation, including any forms
+            issued by your travel provider.</p>
+    </div>
+
+    <div id="checkin" class="tabcontent">
+        <h3>Online check-in with cruise lines</h3>
+        <div class="tab-img">
+            <img src="../images/tips/online-check-in-1.jpg" alt="Online check in">
+        </div>
+        <p>Ports and airports can be busy, and while you can check-in in-person, the best way to avoid delays is to
+            complete your registration online, if your cruise provider offers this service.</p>
+
+        <p>We recommend registering on your trip line's website 45 to 5 days prior to departure day, using your
+            reservation number. This also helps ensure you have maximum choice and flexibility when it comes to booking
+            excursions, extracurricular activities, specialty restaurants and shows, all of which tend to fill up
+            quickly.</p>
+    </div>
+
+    <div id="insurance" class="tabcontent">
+        <h3>Insurance</h3>
+        <div class="tab-img">
+            <img src="../images/tips/travel-insurance1.jpg" alt="Insurance">
+        </div>
+        <p>No one expects to be injured, become ill, or have their baggage lost or stolen. That’s why it’s so important
+            to purchase the right kind of travel insurance before your trip.</p>
+
+        <p>We offer a variety of coverage options underwritten by Travel Insurance, designed to provide added
+            benefits and reassurance including protection against:</p>
+        <ul>
+            <li>Cost of unexpected medical expenses</li>
+            <li>Loss of personal items</li>
+            <li>Trip interruption or cancellation and more</li>
+        </ul>
+    </div>
+
+    <div id="internet" class="tabcontent">
+        <h3>Internet and phone calls</h3>
+        <div class="tab-img">
+            <img src="../images/tips/internet.jpg" alt="Internet and phone calls">
+        </div>
+        <p>There is typically a fee to connect to the airport Wi-Fi, or use onboard internet services. Some charge by the
+            minute, others may offer package rates. If you do need to purchase an internet package while you trip, we
+            recommend doing so on the first day of your journey. That’s when the operator will typically offer the best value
+            for their packages. Remember, internet service onboard can be unreliable, especially the further you are
+            from land. Once you arrive, you can usually find a Wi-Fi network to connect to.</p>
+
+        <p>Cell phone service may also be limited, and your service provider may charge additional roaming fees. Many
+            cruise ships offer in-cabin phones, but may charge up to $8 per minute.</p>
+    </div>
+
+    <div id="paying" class="tabcontent">
+        <h3>Paying onboard</h3>
+        <div class="tab-img">
+            <img src="../images/tips/paying-onboard.webp" alt="paying onboard">
+        </div>
+        <p>For added convenience and security, cruise lines will usually issue you a room key-card that also serves as
+            your ID, and contains your credit card information. So all purchases made onboard get automatically charged
+            to your credit card and, unless otherwise specified, are expressed in $USD or CAD.</p>
+    </div>
+<!--    form for connecting -->
+    <div class="tips-form">
+        <h3>
+            Connect us if you have any questions regarding preparation for your future travel
+        </h3>
+        <form action="" id="personal-info">
+            <label for="fName">First name</label>
+            <input type="text" id="fName" validation-type="name" required><span class="error-message"></span>
+            <label for="lName">Last name</label>
+            <input type="text" id="lName" validation-type="name" required><span class="error-message"></span>
+            <label for="email">Email</label>
+            <input type="email" id="email" validation-type="email" required><span class="error-message"></span>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" validation-type="phone" required><span class="error-message"></span>
+            <input type="button" value="Send" id="sendData"><span class="success-message"></span>
+        </form>
+    </div>
+</main>
+<footer>
+    <div w3-include-html="footer.html"></div>
+</footer>
+<script>
+    includeHTML();
+</script>
+
+<script src="../js/tabs.js"></script>
+<button onclick="scrollToTop()" class="to-top fa-2x">
+    <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
+</button>
+<script src="../js/main-javascript.js"></script>
+</body>
+</html>

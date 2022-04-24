@@ -1,0 +1,184 @@
+{
+  "china": [
+    {
+      "linkName": "About China",
+      "link": "country-china-page.html"
+    },
+    {
+      "linkName": "Accommodations",
+      "link": "accommodations-china-page.html"
+    },
+    {
+      "linkName": "Cuisines",
+      "link": "local-cuisine-china-page.html"
+    },
+    {
+      "linkName": "Gallery",
+      "link": "gallery-china-page.html"
+    },
+    {
+      "linkName": "Places To Visit",
+      "link": "places-to-visit-china-page.html"
+    },
+    {
+      "linkName": "Getting around",
+      "link": "getting-around-china-page.html"
+    }
+  ],
+  "france": [
+    {
+      "linkName": "About France",
+      "link": "country-france-page.html"
+    },
+    {
+      "linkName": "Accommodations",
+      "link": "accommodations-france-page.html"
+    },
+    {
+      "linkName": "Cuisines",
+      "link": "local-cuisine-france-page.html"
+    },
+    {
+      "linkName": "Gallery",
+      "link": "gallery-france-page.html"
+    },
+    {
+      "linkName": "Places To Visit",
+      "link": "places-to-visit-france-page.html"
+    },
+    {
+      "linkName": "Getting around",
+      "link": "getting-around-france-page.html"
+    }
+  ],
+  "japan": [
+    {
+      "linkName": "About Japan",
+      "link": "country-japan-page.html"
+    },
+    {
+      "linkName": "Accommodations",
+      "link": "accommodations-japan-page.html"
+    },
+    {
+      "linkName": "Cuisines",
+      "link": "local-cuisine-japan-page.html"
+    },
+    {
+      "linkName": "Gallery",
+      "link": "gallery-japan-page.html"
+    },
+    {
+      "linkName": "Places To Visit",
+      "link": "places-to-visit-japan-page.html"
+    },
+    {
+      "linkName": "Getting around",
+      "link": "getting-around-japan-page.html"
+    }
+  ],
+  "thailand": [
+    {
+      "linkName": "About Thailand",
+      "link": "country-thailand-page.html"
+    },
+    {
+      "linkName": "Accommodations",
+      "link": "accommodations-thailand-page.html"
+    },
+    {
+      "linkName": "Cuisines",
+      "link": "local-cuisine-thailand-page.html"
+    },
+    {
+      "linkName": "Gallery",
+      "link": "gallery-thailand-page.html"
+    },
+    {
+      "linkName": "Places To Visit",
+      "link": "places-to-visit-thailand-page.html"
+    },
+    {
+      "linkName": "Getting around",
+      "link": "getting-around-thailand-page.html"
+    }
+  ],
+  "spain": [
+    {
+      "linkName": "About Spain",
+      "link": "country-spain-page.html"
+    },
+    {
+      "linkName": "Accommodations",
+      "link": "accommodations-spain-page.html"
+    },
+    {
+      "linkName": "Cuisines",
+      "link": "local-cuisine-spain-page.html"
+    },
+    {
+      "linkName": "Gallery",
+      "link": "gallery-spain-page.html"
+    },
+    {
+      "linkName": "Places To Visit",
+      "link": "places-to-visit-spain-page.html"
+    },
+    {
+      "linkName": "Getting around",
+      "link": "getting-around-spain-page.html"
+    }
+  ],
+  "turkey": [
+    {
+      "linkName": "About Turkey",
+      "link": "country-turkey-page.html"
+    },
+    {
+      "linkName": "Accommodations",
+      "link": "accommodations-turkey-page.html"
+    },
+    {
+      "linkName": "Cuisines",
+      "link": "local-cuisine-turkey-page.html"
+    },
+    {
+      "linkName": "Gallery",
+      "link": "gallery-turkey-page.html"
+    },
+    {
+      "linkName": "Places To Visit",
+      "link": "places-to-visit-turkey-page.html"
+    },
+    {
+      "linkName": "Getting around",
+      "link": "getting-around-turkey-page.html"
+    }
+  ],
+  "information": [
+    {
+      "linkName": "About us",
+      "link": "about-us-page.html"
+    },
+    {
+      "linkName": "Contact us",
+      "link": "contact-us-page.html"
+    },
+    {
+      "linkName": "Tips for travelers",
+      "link": "tips.html"
+    },
+    {
+      "linkName": "Covid-19 travel requirements",
+      "link": "covid19-travelreq.html"
+    },
+    {
+      "linkName": "Testimonials",
+      "link": "testimonial.html"
+    },
+    {
+      "linkName": "Car rental",
+      "link": "car%20retal.html"
+    }
+  ]
+}

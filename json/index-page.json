@@ -1,0 +1,214 @@
+{
+  "countries": [
+    {
+      "href": "pages/country-china-page.html",
+      "image": "../images/gallery/China/11.jpg",
+      "countryName": "China",
+      "countryMenu": [
+        {
+          "name": "About China",
+          "link": "pages/country-china-page.html"
+        },
+        {
+          "name": "Accommodations",
+          "link": "pages/accommodations-china-page.html"
+        },
+        {
+          "name": "Places to visit",
+          "link": "pages/places-to-visit-china-page.html"
+        },
+        {
+          "name": "Gallery",
+          "link": "pages/gallery-china-page.html"
+        },
+        {
+          "name": "Local cuisine",
+          "link": "pages/local-cuisine-china-page.html"
+        },
+        {
+          "name": "Getting around",
+          "link": "pages/getting-around-china-page.html"
+        }
+      ],
+      "countryInfo": [
+        "One of the first land to be trodden down by a human foot is China and also of those that were soon the cradle of a developed culture. From those times of incipient social organization to the present day several millennia have passed, many things have changed, including the physical aspect of the country.",
+        "Tourism in China is an important industry. The amount of tourism has critically extended over the last few decades since the beginning of reform and opening. The appearance of a newly rich middle class and an easing of restrictions on movement by the Chinese authorities are both increasing the tourism of China. China has become one of the world's most-watched and hottest inbound and outbound tourist markets."
+      ]
+    },
+    {
+      "href": "pages/country-france-page.html",
+      "image": "../images/gallery/France/01.jpg",
+      "countryName": "France",
+      "countryMenu": [
+        {
+          "name": "About France",
+          "link": "pages/country-france-page.html"
+        },
+        {
+          "name": "Accommodations",
+          "link": "pages/accommodations-france-page.html"
+        },
+        {
+          "name": "Places to visit",
+          "link": "pages/places-to-visit-france-page.html"
+        },
+        {
+          "name": "Gallery",
+          "link": "pages/gallery-france-page.html"
+        },
+        {
+          "name": "Local cuisine",
+          "link": "pages/local-cuisine-france-page.html"
+        },
+        {
+          "name": "Getting around",
+          "link": "pages/getting-around-france-page.html"
+        }
+      ],
+      "countryInfo": [
+        "In France tourism is a major industry. France is the world's leading tourist destination.",
+        "As a country, France offers a fabulous historic heritage and probably the most diversified natural environment of any country in Europe. Its tourist attractions illustrate the history of the human race, from the prehistoric sites of Cro Magnon to the steel and glass of the Futuroscope; they include fine vestiges of all European civilisations, from the prehistoric megaliths of Carnac and the Roman remains of Provence, through medieval castles and cathedrals, to the splendours of Versailles, the nineteenth century Eiffel Tower, or the resolute modernity of the TG"
+      ]
+    },
+    {
+      "href": "pages/country-japan-page.html",
+      "image": "../images/gallery/Japan/02.jpg",
+      "countryName": "Japan",
+      "countryMenu": [
+        {
+          "name": "About Japan",
+          "link": "pages/country-japan-page.html"
+        },
+        {
+          "name": "Accommodations",
+          "link": "pages/accommodations-japan-page.html"
+        },
+        {
+          "name": "Places to visit",
+          "link": "pages/places-to-visit-japan-page.html"
+        },
+        {
+          "name": "Gallery",
+          "link": "pages/gallery-japan-page.html"
+        },
+        {
+          "name": "Local cuisine",
+          "link": "pages/local-cuisine-japan-page.html"
+        },
+        {
+          "name": "Getting around",
+          "link": "pages/getting-around-japan-page.html"
+        }
+      ],
+      "countryInfo": [
+        "A land of contrasts, Japan is a fascinating destination for visitors. Combining the attractions of an ancient and unfamiliar culture with all the trappings of one of the world powerhouses in entertainment, fashion, and innovation, Japan is a journey of discovery wherever you go.",
+        "Nowadays, visitors can explore every part of the country, with its excellent air, rail, and public transportation system linking the five main islands of Hokkaido in the far north, Honshu, Shikoku, Kyushu to the tropical thousand-island archipelago that includes Okinawa. Topographically, Japan boasts everything from the massive Alps to forests, waterfalls, narrow coastal strips, great cities, glorious lakes and the Inland Sea."
+      ]
+    },
+    {
+      "href": "pages/country-spain-page.html",
+      "image": "../images/gallery/Spain/02.jpg",
+      "countryName": "Spain",
+      "countryMenu": [
+        {
+          "name": "About Spain",
+          "link": "pages/country-spain-page.html"
+        },
+        {
+          "name": "Accommodations",
+          "link": "pages/accommodations-spain-page.html"
+        },
+        {
+          "name": "Places to visit",
+          "link": "pages/places-to-visit-spain-page.html"
+        },
+        {
+          "name": "Gallery",
+          "link": "pages/gallery-spain-page.html"
+        },
+        {
+          "name": "Local cuisine",
+          "link": "pages/local-cuisine-spain-page.html"
+        },
+        {
+          "name": "Getting around",
+          "link": "pages/getting-around-spain-page.html"
+        }
+      ],
+      "countryInfo": [
+        "Cradled on the Iberian Peninsula in southwest Europe lies the captivating mainland of Spain. It is surrounded by Portugal in the west and shares a strip with France to the North. On the other sides it is flanked by the Mediterranean sea to the south and east, the Atlantic ocean to the northwest and the Bay of Biscay to the northeast. Some interesting Spanish archipelagos also lie in the Atlantic Ocean and Mediterranean Sea.",
+        "Spain’s pleasant Mediterranean climate, its dramatic coastlines, charming landscapes, rich historical legacy, eclectic culture, culinary expertise and vibrant nightlife have made it a much sought-after destination, and Spain’s international tourist industry is among the largest in the world."
+      ]
+    },
+    {
+      "href": "pages/country-thailand-page.html",
+      "image": "../images/gallery/Thailand/07.jpg",
+      "countryName": "Thailand",
+      "countryMenu": [
+        {
+          "name": "About Thailand",
+          "link": "pages/country-thailand-page.html"
+        },
+        {
+          "name": "Accommodations",
+          "link": "pages/accommodations-thailand-page.html"
+        },
+        {
+          "name": "Places to visit",
+          "link": "pages/places-to-visit-thailand-page.html"
+        },
+        {
+          "name": "Gallery",
+          "link": "pages/gallery-thailand-page.html"
+        },
+        {
+          "name": "Local cuisine",
+          "link": "pages/local-cuisine-thailand-page.html"
+        },
+        {
+          "name": "Getting around",
+          "link": "pages/getting-around-thailand-page.html"
+        }
+      ],
+      "countryInfo": [
+        "Thailand has long been a favourite tourist destination among international travellers. The country has much to offer everyone—from white, sandy beaches and scenic mountains to centuries-old temples and a rich heritage. It is known for its religious and cultural harmony, and thus as a land that enthusiastically celebrates festivals of all cultures and welcomes foreign guests with warm smiles and effusive hospitality. Thai food is also a visual and culinary delight for foreign visitors and the possibilities for shopping unlimited from modern shopping malls to walking streets and night markets. Tourist attractions can be found in all parts of the country."
+      ]
+    },
+    {
+      "href": "pages/country-turkey-page.html",
+      "image": "../images/gallery/Turkey/02.jpg",
+      "countryName": "Turkey",
+      "countryMenu": [
+        {
+          "name": "About Turkey",
+          "link": "pages/country-turkey-page.html"
+        },
+        {
+          "name": "Accommodations",
+          "link": "pages/accommodations-turkey-page.html"
+        },
+        {
+          "name": "Places to visit",
+          "link": "pages/places-to-visit-turkey-page.html"
+        },
+        {
+          "name": "Gallery",
+          "link": "pages/gallery-turkey-page.html"
+        },
+        {
+          "name": "Local cuisine",
+          "link": "pages/local-cuisine-turkey-page.html"
+        },
+        {
+          "name": "Getting around",
+          "link": "pages/getting-around-turkey-page.html"
+        }
+      ],
+      "countryInfo": [
+        "Turkey is a popular tourist destination known for its Mediterranean coastline, impressive mosques, and stunning natural scenery.",
+        "But there’s also a lot that travelers probably don’t know, just some of the most interesting, and surprising facts about Turkey are given below. There are also a few fun facts to keep the little ones entertained.",
+        "Tourists may associate Turkey with beaches and warm summer days, however, Turkey is also a great winter skiing destination. Turkey offers an interesting alternative to the more well-known Alps or Pyrenees."
+      ]
+    }
+  ]
+}

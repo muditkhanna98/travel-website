@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>France Gallery page</title>
+    <link rel="shortcut icon" href="../images/travel-icon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script
+      type="text/javascript"
+      src="../js/w3schoolsHTMLIncluder.js"
+    ></script>
+    <link rel="stylesheet" href="../css/grid-gallery.min.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/gallery.css" />
+  </head>
+  <body>
+  <!--  including header -->
+    <header>
+      <div w3-include-html="header.html"></div>
+    </header>
+  <!--  including navigation -->
+    <nav>
+      <div w3-include-html="nav.html"></div>
+    </nav>
+  <!--main part -->
+    <main>
+      <h2>Photos of France</h2>
+      <div class="gg-container">
+        <!--        Shuffle images button-->
+        <input type="button" value="Shuffle images" onclick="shuffleImages()" class="shuffle">
+        <!--        images for gallery-->
+        <div class="gg-box">
+          <img src="../images/gallery/France/01.jpg" />
+          <img src="../images/gallery/France/02.jpg" />
+          <img src="../images/gallery/France/03.jpg" />
+          <img src="../images/gallery/France/04.jpg" />
+          <img src="../images/gallery/France/05.jpg" />
+          <img src="../images/gallery/France/06.jpg" />
+          <img src="../images/gallery/France/07.jpg" />
+          <img src="../images/gallery/France/08.jpg" />
+          <img src="../images/gallery/France/09.jpg" />
+          <img src="../images/gallery/France/10.jpg" />
+          <img src="../images/gallery/France/11.jpg" />
+          <img src="../images/gallery/France/12.jpg" />
+          <img src="../images/gallery/France/13.jpg" />
+          <img src="../images/gallery/France/14.jpg" />
+          <img src="../images/gallery/France/15.jpg" />
+          <img src="../images/gallery/France/16.jpg" />
+          <img src="../images/gallery/France/17.jpg" />
+          <img src="../images/gallery/France/18.jpg" />
+          <img src="../images/gallery/France/19.jpg" />
+          <img src="../images/gallery/France/20.jpg" />
+          <img src="../images/gallery/France/21.jpg" />
+          <img src="../images/gallery/France/22.jpg" />
+          <img src="../images/gallery/France/23.jpg" />
+          <img src="../images/gallery/France/24.jpg" />
+        </div>
+      </div>
+    </main>
+  <!--including footer-->
+    <footer>
+      <div w3-include-html="footer.html"></div>
+    </footer>
+  <!--script for including other html pages-->
+    <script>
+      includeHTML();
+    </script>
+  <!--    scripts for gallery-->
+    <script type="text/javascript" src="../js/grid-gallery.min.js"></script>
+    <script type="text/javascript" src="../js/gallery.js"></script>
+  <!--scroll to top button-->
+    <button onclick="scrollToTop()" class="to-top fa-2x">
+      <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
+    </button>
+    <script src="../js/main-javascript.js"></script>
+  </body>
+</html>

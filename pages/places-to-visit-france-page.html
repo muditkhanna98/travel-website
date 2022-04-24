@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Title</title>
+    <link rel="shortcut icon" href="../images/travel-icon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="../js/w3schoolsHTMLIncluder.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/places-to-visit-page.css" />
+  </head>
+  <body>
+    <header>
+      <div w3-include-html="header.html"></div>
+    </header>
+    <nav>
+      <div w3-include-html="nav.html"></div>
+    </nav>
+    <main>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Contact an Agent and plan your itinerary now !</h2>
+          <hr />
+          <br />
+          <h3 id="submitHeading">
+            Thanks for contacting, we will get back to you shortly.
+          </h3>
+          <form id="agentForm" method="get">
+            <label for="firstName">First Name: </label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name"
+            />
+            <span id="error-alert">*</span>
+            <br />
+            <label for="lastName">Last Name: </label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name"
+            />
+            <span id="error-alert">*</span>
+            <br />
+            <label for="mobile">Mobile Number: </label>
+            <input type="text" name="mobile" id="mobile" />
+            <span id="error-alert">*</span>
+            <br />
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" />
+            <span id="error-alert">*</span>
+            <br />
+            <label for="from">From: </label>
+            <input type="from" name="from" id="from" />
+            <span id="error-alert">*</span>
+            <br />
+            <label for="to">To: </label>
+            <input type="to" name="to" id="to" readonly value="France" />
+            <br />
+            <input type="button" id="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+      <div class="slideshow-container fade">
+        <div class="containers">
+          <img src="../images/places-to-visit/france/biarritz-beach.jpg" />
+        </div>
+
+        <div class="containers">
+          <img
+            src="../images/places-to-visit/france/bordeaux-palais-de-la-bourse.jpg"
+          />
+        </div>
+
+        <div class="containers">
+          <img src="../images/places-to-visit/france/alps.jpg" />
+        </div>
+
+        <div class="containers">
+          <img
+            src="../images/places-to-visit/france/fishing-villages-ports-beaches-brittany.jpg"
+          />
+        </div>
+
+        <div class="containers">
+          <img src="../images/places-to-visit/france/mont-saint-michel.jpg" />
+        </div>
+
+        <!-- Back and forward buttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The circles/dots -->
+      <div style="text-align: center">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+        <span class="dots" onclick="currentSlide(4)"></span>
+        <span class="dots" onclick="currentSlide(5)"></span>
+      </div>
+      <div class="wrapper">
+        <aside>
+          <ol>
+            <li><a href="#saint">Mont Saint-Michel in Normandy</a></li>
+            <li><a href="#valley">The Châteaux of the Loire Valley</a></li>
+            <li>
+              <a href="#cathedral">Reims & its Magnificent Gothic Cathedral</a>
+            </li>
+            <li>
+              <a href="#fishing"
+                >Fishing Villages, Historic Ports & Beaches in Brittany</a
+              >
+            </li>
+            <li><a href="#beach">Biarritz & Saint-Jean-de-Luz</a></li>
+            <li>
+              <a href="#monument"
+                >Joan of Arc Monuments in Chinon, Rouen & Orléans</a
+              >
+            </li>
+            <li><a href="#alsace">The Alsace Region</a></li>
+            <li><a href="#alps">Mont-Blanc & Annecy in the French Alps</a></li>
+            <li>
+              <a href="#caves"
+                >Prehistoric Caves in the Dordogne & the Pyrenees</a
+              >
+            </li>
+            <li><a href="#bourse">Bordeaux & Saint-Émilion</a></li>
+          </ol>
+        </aside>
+        <div>
+          <article class="place-items" id="saint">
+            <figure>
+              <img
+                src="../images/places-to-visit/france/mont-saint-michel.jpg"
+                alt=""
+              />
+              <figcaption>Mont Saint-Michel in Normandy</figcaption>
+            </figure>
+            <p>
+              Mont Saint-Michel is a highlight of the Normandy region, a
+              pastoral landscape of apple orchards, woodlands, and cow pastures.
+              This unmissable tourist attraction ranks number one on the long
+              list of Normandy travel destinations, which includes stellar
+              sights such as historic castles and picture-perfect towns. Built
+              between the 11th and 13th centuries, the Abbey of Mont
+              Saint-Michel is one of the most awe-inspiring sights in France.
+              The UNESCO-listed abbey is perched on the hilltop of an islet in
+              the Bay of Mont Saint-Michel and is considered a marvel of Gothic
+              architecture. The abbey church was an important medieval
+              pilgrimage site on the "Way of Saint James" route to Santiago de
+              Compostela in Spain. Modern-day pilgrims still make the journey
+              here, crossing the Bay of Saint-Michel by foot at low tide.
+            </p>
+          </article>
+          <hr />
+          <article class="place-items" id="valley">
+            <figure>
+              <img
+                src="../images/places-to-visit/france/loire-valley-chateau-d-azay-le-rideau.jpg"
+                alt=""
+              />
+              <figcaption>The Châteaux of the Loire Valley</figcaption>
+            </figure>
+            <p>
+              Like the scene of a fairy tale, magnificent castles are scattered
+              throughout the densely forested landscape of the Loire Valley.
+              Stretching for 280 kilometers, from Sully-sur-Loire to
+              Chalonnes-sur-Loire in Anjou, the Loire Valley is the largest
+              UNESCO-listed site in France. The region boasts an incredibly rich
+              cultural heritage. During the 15th and 16th centuries, France's
+              kings built sumptuous country retreats here purely for
+              entertainment and enjoyment. Extravagant châteaux, such as the
+              grandiose Château de Chambord and the emblematic Château de
+              Chenonceau, offer insight into the opulence of the Renaissance-era
+              French court. French nobles and elites also built stately manor
+              houses, such as the majestic Château of Cheverny and the Château
+              d'Azay-le-Rideau in an idyllic setting with a water-filled moat.
+              For families with kids, the Mini-Châteaux Park in Amboise is a
+              marvelous destination. Set in two hectares of woodlands, the
+              amusement park features more than 40 replicas of Loire châteaux
+              built on a 1/25 scale. Children love exploring the kid-sized
+              castles designed with authentic details.
+            </p>
+          </article>
+          <hr />
+          <article class="place-items" id="cathedral">
+            <figure>
+              <img
+                src="../images/places-to-visit/france/reims-gothic-cathedral.jpg"
+                alt=""
+              />
+              <figcaption>Reims & its Magnificent Gothic Cathedral</figcaption>
+            </figure>
+            <p>
+              Reims is justifiably placed among France's list of "Villes d'Art
+              et d'Histoire" ("Cities of Art and History"). Of the town's three
+              UNESCO World Heritage Sites, the most renowned is the Cathédrale
+              Notre-Dame de Reims, where French kings were crowned. The most
+              celebrated event was when Joan of Arc escorted Charles VII to the
+              cathedral in July of 1429 for his coronation as king. Built in the
+              13th century, the Notre-Dame Cathedral of Reims is a gem of High
+              Gothic architecture. The dazzling exterior features a profusion of
+              flying buttresses and sculpted angels, while the spacious interior
+              has a solemn ambience of spirituality. Among the city's top
+              attractions, other UNESCO-listed landmarks include the Palais du
+              Tau, a 17th-century Archbishops' Palace, and the 11th-century
+              Basilique Saint-Rémi.
+            </p>
+          </article>
+          <hr />
+          <article class="place-items" id="fishing">
+            <figure>
+              <img
+                src="../images/places-to-visit/france/fishing-villages-ports-beaches-brittany.jpg"
+                alt=""
+              />
+              <figcaption>
+                Fishing Villages, Historic Ports & Beaches in Brittany
+              </figcaption>
+            </figure>
+            <p>
+              A picturesque coastal region, Brittany has a rich maritime
+              heritage seen in its historic port towns: Saint-Malo, surrounded
+              by old ramparts; the medieval capital of Nantes; and the fortified
+              14th-century Concarneau. The seaside also boasts stylish beach
+              resorts like fashionable Dinard on the Côte d'Emeraude, the
+              summertime vacation destination of La Baule on the estuary of the
+              Loire River, and Tréboul near the lovely riverside town of
+              Quimper. The scenery is dramatic and unspoiled, with secluded
+              sandy beaches and a rocky coastline, where wild Atlantic waves
+              crash against the shore. Centuries-old fishing villages are
+              sheltered in quiet bays and on tiny windswept offshore islands.
+              Breton culture can be traced back to the Celts (the local dialect
+              is related to Gaelic). Similar to Ireland, it is a land of
+              mythology and legends. Today, Brittany is strongly Catholic.
+              Locals celebrate ancient religious customs called "pardons,"
+              special festivals when townspeople wear old-fashioned regional
+              costumes. The local cuisine features delicious specialties such as
+              fresh seafood and savory buckwheat crepes. Brittany also has a
+              famous regional pastry, the "kouign-amann," a buttery pastry made
+              with croissant dough that is layered with sprinkles of sugar, has
+              a moist cake-like center, and a crispy caramelized exterior.
+            </p>
+          </article>
+          <hr />
+          <article class="place-items" id="beach">
+            <figure>
+              <img
+                src="../images/places-to-visit/france/biarritz-beach.jpg"
+                alt=""
+              />
+              <figcaption>Biarritz & Saint-Jean-de-Luz</figcaption>
+            </figure>
+            <p>
+              A blend of Parisian-style elegance and the untamed natural beauty
+              of the Atlantic coast, Biarritz is an upscale seaside resort with
+              fabulous beaches. Biarritz was favored by Empress Eugénie, who
+              loved this area of the Basque region. She chose a sandy hillside
+              overlooking the Bay of Biscay as the location for her Imperial
+              residence, the Villa Eugénie. This Second Empire palace has been
+              converted into luxury accommodations, the five-star Hôtel du
+              Palais, which offers exquisitely decorated guest rooms and an
+              oceanfront gastronomic restaurant. Next to the hotel property is
+              the Grande Plage, a sandy beach that has attracted sunbathers
+              since the Belle Epoque. Another of the top beaches in Biarritz is
+              the Plage du Miramar. A picturesque scene of colorful, striped
+              cabanas and parasols during summertime, this sheltered beach has
+              the delightful ambience of an old-fashioned seaside resort.
+            </p>
+          </article>
+          <hr />
+          <article class="place-items" id="monument">
+            <figure>
+              <img
+                src="../images/places-to-visit/france/france-best-places-to-visit-joan-arc-monuments-chinon-rouen-orleans.jpg"
+                alt=""
+              />
+              <figcaption>
+                Joan of Arc Monuments in Chinon, Rouen & Orléans
+              </figcaption>
+            </figure>
+            <p>
+              France's national heroine, Joan of Arc led the country to victory
+              during the Hundred Years' War when she was only seventeen years
+              old. Her divinely ordained mission, instructed by heavenly voices,
+              is still an inspiration to the faithful. Joan of Arc's remarkable
+              story began in Chinon, where on March 9, 1429, she went to meet
+              the future Charles VII (the "Dauphin") at the Forteresse Royale (a
+              medieval fortified castle). On this momentous occasion, the "Maid
+              of Orléans" informed the Dauphin of his right to the crown and
+              asked for help in forming an army, which was needed to break the
+              Siege of Orléans (a pivotal event during the Hundred Years' War
+              between France and England). Because of its rich heritage, Chinon
+              is listed as a Ville d'Art et d'Histoire (City of Art and
+              History). At the tree-lined Place Jeanne d'Arc stands a monumental
+              bronze equestrian statue of Joan of Arc depicted as a heroic
+              military leader. Among the top attractions of the Loire Valley,
+              Orléans is another essential stop on the Joan of Arc trail. The
+              city was saved by the "Maid of Orléans," during the Siege of 1429.
+              After leading the French to defeat the English army, Joan of Arc
+              came to the town's Cathédrale Sainte-Croix to pray. The
+              cathedral's 19th-century stained-glass windows recount the history
+              of Joan of Arc.
+            </p>
+          </article>
+          <hr />
+          <article class="place-items" id="alsace">
+            <figure>
+              <img
+                src="../images/places-to-visit/france/alsace-village-hunawihr.jpg"
+                alt=""
+              />
+              <figcaption>The Alsace Region</figcaption>
+            </figure>
+            <p>
+              The historic cities of Strasbourg and Colmar, along with the
+              hundreds of Alsatian villages, have a special old-world charm that
+              is completely distinct from the rest of France. The architecture
+              and ambience of Alsace has been influenced over the centuries by
+              neighboring Germany, as seen in the brightly painted,
+              half-timbered buildings and venerable Gothic churches. Quaint and
+              cultured, Strasbourg enchants visitors with its narrow cobblestone
+              streets, scenic canals, and ornate cathedral. Colmar is the
+              quintessential Alsatian town, full of interesting old churches and
+              traditional houses with flower-bedecked balconies. Outside these
+              two cities is an unspoiled landscape of vine-covered foothills.
+              Nestled in the valleys and along the Rhine River are tiny
+              storybook hamlets and picturesque villages.
+            </p>
+          </article>
+          <hr />
+          <article class="place-items" id="alps">
+            <figure>
+              <img src="../images/places-to-visit/france/alps.jpg" alt="" />
+              <figcaption>Mont-Blanc & Annecy in the French Alps</figcaption>
+            </figure>
+            <p>
+              The French Alps boast some of the most awe-inspiring natural
+              scenery in the world. The majestic Mont Blanc is the highest
+              mountain in Europe, an iconic snowcapped peak that soars to 4,810
+              meters. At this altitude, the air is fresh and the landscape is
+              sublime, with crystal-clear lakes, dramatic rushing waterfalls,
+              peaceful valleys, and refreshing pine forests. During summertime,
+              visitors flock to the Alps to go hiking, cycling, and mountain
+              climbing. In the winter, the French Alps draws many tourists for
+              Alpine skiing, snowboarding, and cross-country skiing. The area
+              has many of France's top-rated ski resorts. Other things to do
+              during the snowy season include ice-skating, dog sledding rides,
+              and old-fashioned horse-drawn sleigh rides. Besides the
+              spectacular mountain terrain, the region also has a rich cultural
+              heritage linked to the ancestral territory of the Italian royal
+              House of Savoy, as well as the historic Dauphiné region.
+            </p>
+          </article>
+          <hr />
+          <article class="place-items" id="caves">
+            <figure>
+              <img
+                src="../images/places-to-visit/france/lascaux-caves.jpg"
+                alt=""
+              />
+              <figcaption>
+                Prehistoric Caves in the Dordogne & the Pyrenees
+              </figcaption>
+            </figure>
+            <p>
+              The Dordogne region is one of the best places to visit in France
+              for viewing prehistoric cave paintings. Designated as a UNESCO
+              World Heritage Site, the Lascaux Cave in the Dordogne's Vallée de
+              la Vézère contains masterpieces of Paleolithic art created by
+              Cro-Magnon man. Although the Lascaux Cave has been closed to the
+              public to prevent damage, visitors may view copies of the cave's
+              artwork at the nearby Lascaux II site (in Montignac). Also in
+              Montignac is the Centre International de l'Art Pariétal
+              (International Center of Cave Art), which presents exhibits about
+              prehistoric animal paintings and reveals the work of
+              archaeologists. The center includes Lascaux IV, which is a
+              complete replica of the prehistoric Lascaux Cave. Also in the
+              Vézère Valley, the Grotte de Rouffignac is adorned with paintings
+              of horses, cows, bison, deer, goats, and mammoths.
+            </p>
+          </article>
+          <hr />
+          <article class="place-items" id="bourse">
+            <figure>
+              <img
+                src="../images/places-to-visit/france/bordeaux-palais-de-la-bourse.jpg"
+                alt=""
+              />
+              <figcaption>Bordeaux & Saint-Émilion</figcaption>
+            </figure>
+            <p>
+              The Bordeaux region is a beautiful bucolic corner of France, where
+              grandiose castles preside over rolling, vine-covered hills. Scenic
+              tree-shaded paths traverse the countryside and follow alongside
+              the Garonne River, as well as its placid canals. Many travelers
+              enjoy exploring this area on a leisurely cycling itinerary. The
+              region has two exceptional UNESCO World Heritage Sites: the
+              elegant city of Bordeaux, with more than 350 buildings classified
+              as historical monuments, and the little country village of
+              Saint-Émilion, 51 kilometers from Bordeaux, which is packed with
+              notable churches and monasteries.
+            </p>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div w3-include-html="footer.html"></div>
+    </footer>
+    <script src="../js/carousel.js"></script>
+    <script src="../js/modal.js"></script>
+    <script>
+      includeHTML();
+    </script>
+    <button onclick="scrollToTop()" class="to-top fa-2x">
+      <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
+    </button>
+    <script src="../js/main-javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="../images/travel-icon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script
+      type="text/javascript"
+      src="../js/w3schoolsHTMLIncluder.js"
+    ></script>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/contact-us-page.css" />
+    <script src="../js/contactus.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <div w3-include-html="header.html"></div>
+    </header>
+    <nav>
+      <div w3-include-html="nav.html"></div>
+    </nav>
+    <main>
+      <h1 class="contact-heading">CONTACT US</h1>
+      <center><div>
+        <iframe src="https://www.google.com/maps/embed?pb=@43.7292505,-79.6090847,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3a5391c12321:0x747f0c3b5cdecaa0!8m2!3d43.7292505!4d-79.606896"
+                width="400"
+                height="300"
+                frameborder="0"
+                style="border:0;"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0">
+        </iframe>
+      </div>
+        <p>59 Hayden St Unit 400, Toronto, ON M4Y 2P2, Canada</p>
+        <p>Phone: +1 416-675-3111</p>
+      </center>
+      <div class="container">
+        <form action="#" onsubmit="validateForm()" name="myForm">
+
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select><br><br>
+          <label for="fname">Write Your query</label>
+    <input type="text" id="fname" name="firstname" placeholder="">
+    
+
+    
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div><br>
+      <button onclick="myFunction()" id="dark">Toggle dark mode</button>
+    </main>
+    <footer>
+      <div w3-include-html="footer.html"></div>
+    </footer>
+    <script>
+      includeHTML();
+    </script>
+    <button onclick="scrollToTop()" class="to-top fa-2x">
+      <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
+    </button>
+    <script src="../js/main-javascript.js"></script>
+  </body>
+</html>

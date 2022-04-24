@@ -1,0 +1,440 @@
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+}
+
+.header1 {
+    font-size: 16pt;
+    font-weight:bold;
+    margin-top: -1em;
+    text-align: left;
+    display: grid;
+}
+
+.p1 {
+    font-size: 12pt;
+    width: 65%;
+    float: left;
+    display: grid;
+}
+
+.flag {
+    float: right;
+    text-align: right;
+    margin-top: -14em;
+    display: grid;
+}
+
+.header2 {
+    font-size: 10pt;
+    margin-top: 0px;
+    font-weight:bold;
+    padding-right: 16.5em;
+    display: grid;
+}
+
+.slider {
+    margin-top: -10em;
+    padding-left: 0.5em;
+    display: grid;
+    border-radius: 10px;
+}
+
+#slideshow, #slideshow2, #slideshow3, #slideshow4, #slideshow5, #slideshow6 {
+    border-radius: 10px;
+}
+
+.p2, .p3 {
+    font-size: 12pt;
+    display: grid;
+}
+
+table {
+    border-collapse: collapse;
+    display: grid;
+    float: left;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    font-size: 115%;
+    padding-bottom: .25em;
+    display: grid;
+}
+
+tr {
+    font-size: 10.5pt;
+}
+
+td {
+    padding: .2em .7em;
+    text-align: right;
+    border: 1px solid black;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: silver;
+}
+
+.cmtHeader {
+    font-size: 14pt;
+    padding-left: 0.3em;
+}
+
+.cmtPar {
+    padding-left: 0.5em;
+    font-family: Arial;
+    font-size: 10.5pt;
+}
+
+.repPar {
+    font-size: 20pt;
+    padding-left: 0.3em;
+}
+
+.emPar {
+    padding-left: 0.5em;
+    margin-top: -1.7em;
+    font-size: 11pt;
+}
+
+#message{
+    width: 20em;
+    height: 10em;
+}
+
+.replyDiv {
+    padding-left: 0.5em;
+}
+
+#name_2, #email_1 {
+    margin-top: 0.2em;
+    width: 21.8em;
+    font-size: 11pt;
+}
+
+#submit_form {
+    color:antiquewhite;
+    background-color: black;
+    margin-top: 0.2em;
+    margin-left: -0.5em;
+    width: 21.8em;
+    font-size: 11pt;
+    font-weight: bold;
+    padding: 0.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.frmSpan {
+    color: red;
+    font-size: 11pt;
+}
+
+@media only screen and (min-width: 375px) {
+   
+    .header1 {
+        margin-top: -2em;
+        font-size: 13pt;
+        padding-left: 0.5em;
+    }
+
+    .p1 {
+        font-size: 11pt;
+        width: 100%;
+        text-align: justify;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .flag {
+        float: left;
+        padding-left: 0.5em;
+        margin-top: 1em;
+        width: 50%;
+    }
+
+    .header2 {
+        font-size: 9pt;
+        padding-left: 0.8em;
+    }
+
+    .p2 {
+        font-size: 11pt;
+        padding-left: 0.5em;
+        padding-bottom: 10.5em;
+        padding-right: 0.5em;
+    }
+
+    .slider {
+        width: 70%;
+        padding-left: 0.5em;
+        border-radius: 10px;    
+    }
+
+    .p3 {
+        font-size: 11pt;
+        padding-left: 0.5em;
+        text-align: justify;
+        padding-right: 0.5em;
+    }
+
+    caption {
+        font-size: 90%;
+        display: grid;
+        padding-left: 0.5em;
+    }
+
+    tbody {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    tr {
+        font-size: 9.5pt;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    
+    .header1 {
+        margin-top: -2em;
+        font-size: 13pt;
+        padding-left: 0.5em;
+    }
+
+    .p1 {
+        font-size: 11.5pt;
+        width: 100%;
+        text-align: justify;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .flag {
+        float: left;
+        padding-left: 0.5em;
+        margin-top: 1em;
+        width: 50%;
+    }
+
+    .header2 {
+        font-size: 10pt;
+        padding-left: 0.8em;
+    }
+
+    .p2 {
+        font-size: 11pt;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-bottom: 10.5em;
+    }
+    .slider {
+        width: 70%;
+        padding-left: 0.5em;
+        border-radius: 10px;
+    }
+
+    .p3 {
+        font-size: 11.5pt;
+        padding-left: 0.5em;
+        text-align: justify;
+        padding-right: 0.5em;
+    }
+
+    caption {
+        font-size: 90%;
+        display: grid;
+        padding-left: 0.5em;
+    }
+
+    tbody {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    tr {
+        font-size: 10pt;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    
+    .header1 {
+        margin-top: -2em;
+        font-size: 16pt;
+        padding-left: 0.5em;
+    }
+
+    .p1 {
+        font-size: 13pt;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .flag {
+        float: left;
+        padding-left: 0.5em;
+        margin-top: 1em;
+        width: 30%;
+    }
+
+    .header2 {
+        float: left;
+        text-align: left;
+        text-indent: 0.5em;
+        font-size: 11pt;
+        padding-left: 0.5em;
+        margin-right: 15em;
+        padding-top: 0.5em;
+    }
+
+    .p2 {
+        font-size: 13pt;
+        float: left;
+        text-align: left;
+        padding-left: 0.5em;
+        padding-bottom: 10.5em;
+        padding-right: 0.5em;
+    }
+
+    .slider {
+        width: 80%;
+        padding-left: 0.5em;
+        border-radius: 10px;
+    }
+
+    .p3 {
+        font-size: 13pt;
+    }
+
+    caption {
+        font-size: 115%;
+    }
+
+    tr {
+        font-size: 13pt;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .flag {
+        width: 30%;
+    }
+
+    .header2 {
+        float: left;
+        text-align: left;
+        text-indent: 0.5em;
+        font-size: 11pt;
+        padding-left: 0.5em;
+        margin-right: 15em;
+        padding-top: 0.5Wem;
+
+    }
+
+    .p2 {
+        font-size: 13pt;
+        float: left;
+        text-align: left;
+        padding-left: 0.5em;
+        padding-bottom: 9em;
+        padding-right: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .flag {
+        width: 35%;
+    }
+
+    .header2 {
+        float: left;
+        text-align: left;
+        text-indent: 0.5em;
+        font-size: 11pt;
+        padding-left: 0.5em;
+        padding-right: 30em;
+        padding-top: 0.5em;
+
+    }
+
+    .p2 {
+        font-size: 11pt;
+        float: left;
+        text-align: left;
+        padding-left: 0.5em;
+        padding-bottom: 10.5em;
+        padding-right: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    .p1 {
+        font-size: 12pt;
+        width: 65%;
+        float: left;
+        display: grid;
+    }
+    
+    .flag {
+        float: right;
+        text-align: right;
+        margin-top: -14em;
+        margin-right: 3em;
+        width:30%;
+        display: grid;
+    }
+    
+    .header2 {
+        float: right;
+        font-size: 10pt;
+        margin-top: -2em;
+        padding-right: 5em;
+    }
+
+    .p2 {
+        float: right;
+        font-size: 10.5pt;
+        margin-top: 0.5em;
+        padding-bottom: 0.1em;
+        margin-left: 23em;
+        padding-right: 3.2em;
+        display: block;
+    }
+
+    .slider {
+        width: 70%;
+        margin-top:-8em;
+        padding-left: 0.5em;
+        padding-right: 20em;
+        border-radius: 10px;
+    }
+
+    .p3{
+        font-size: 12pt;
+        
+    }
+
+    caption {
+        font-size: 13pt;
+    }
+
+    tr {
+        font-size: 11pt;
+    }
+
+    td {
+        font-size: 11pt;
+    }
+}

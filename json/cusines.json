@@ -1,0 +1,194 @@
+{
+  "china": [
+    {
+      "name": "Peking Roasted Duck",
+      "src": "../images/cuisines/china/peching-duck.webp",
+      "info": "Peking duck (北京烤鸭 Běijīng kǎoyā) is a famous dish from Beijing, enjoying world fame, and considered as one of China national dishes. Peking duck is savored for its thin and crispy skin. Sliced Peking duck is often eaten with pancakes, sweet bean sauce, or soy sauce with mashed garlic. It is a must-taste dish in Beijing! As “the first dish to taste in China”, Beijing Roast Duck used to be a royal dish in medieval China. It has been a “national dish of diplomacy” since the 1970s, when it was first used for the reception of foreign guests by Premier Zhou Enlai (the first Premier of the People's Republic of China). It is highly praised by heads of state, government officials, and domestic and foreign tourists."
+    },
+    {
+      "name": "Kung Pao Chicken",
+      "src": "../images/cuisines/china/kung-pao.webp",
+      "info": "Kung Pao Chicken (宫保鸡丁 gōngbào jīdīng) is a famous Sichuan-style specialty, popular with both Chinese and foreigners. The major ingredients are diced chicken, dried chili, cucumber, and fried peanuts (or cashews). People (Chinese takeaways) in Western countries have created a Western-style kung pao chicken, for which the diced chicken is covered with cornstarch, and vegetables, sweet and sour sauce, and mashed garlic are added. See How to Cook Kung Pao Chicken for a classic recipe and its history."
+    },
+    {
+      "name": "Sweet and Sour Pork",
+      "src": "../images/cuisines/china/sweet-sour-pork.webp",
+      "info": "Sweet and sour pork (糖醋里脊 tángcù lǐjǐ) has a bright orange-red color, and a delicious sweet and sour taste. At the very beginning there was only sweet and sour pork, but to meet demands, there have been some developments on this dish. Now, the pork can be substituted with other ingredients like chicken, beef, or pork ribs."
+    },
+    {
+      "name": "Hot Pot",
+      "src": "../images/cuisines/china/hot-pot.webp",
+      "info": "Hot pot, or hotpot (火锅 huǒguō), is one of the most popular dishes in China, especially in Sichuan Province or Chongqing. People cook in and eat from a simmering pot of soup stock (broth) on a gas/induction hob in the middle of the dining table with foodstuffs and condiments around the pot. People can add and cook whatever they like in the broth. The secret of whether a hot pot is good or not lies in the broth, which all the meat slices and vegetables take their flavor from. Chinese people are very fond of hot pot. In the past hot pot used to be favored only in winter, but nowadays hot pot has been appearing on tables all year round. It is a great way to socialize with friends and relatives. People gather around the pot to eat while chatting, eating, drinking, and having fun."
+    },
+    {
+      "name": "Dim Sum",
+      "src": "../images/cuisines/china/dim-sum.webp",
+      "info": " Dim sum (点心 diǎnxin) is one of the most popular Cantonese cuisine dishes. It contains a large range of small dishes, including dumplings, rolls, cakes, and meat, seafood, dessert, and vegetable preparations. There are more than one thousand dim sum dishes in existence today. Dim sum originated in Guangzhou city. People of Guangdong are fond of drinking tea in the morning or lunch. So, they often eat dim sum during their tea parties for breakfast and lunch. It is a popular way to get together with friends and relatives or have social gatherings. Read more about Dim sum."
+    },
+    {
+      "name": "Dumplings",
+      "src": "../images/cuisines/china/dumpling.webp",
+      "info": " Dumplings (饺子 jiǎozi) are a traditional food type that is widely popular, especially in North China. Chinese dumplings consist of minced meat and/or chopped vegetables wrapped in a thin dough skin. Popular fillings are minced pork, diced shrimp, ground chicken, beef, and vegetables. Dumplings can be cooked by boiling, steaming, or frying. Dumplings are also a traditional dish eaten on Chinese New Year’s Eve. As they look like Chinese silver ingots (Chinese money in old times), it is believed that the more dumplings you eat during the New Year celebrations, the more money you will make in the New Year. Making dumplings is a good way to interact with your friends and relatives. You will see a busy kitchens with Chinese families making dumplings during Chinese New Year. Read more abou Dumpli"
+    }
+  ],
+  "france": [
+    {
+      "name": "Soupe à l’oignon",
+      "src": "../images/cuisines/france/french-onion-soup.webp",
+      "info": "This is a traditional French soup made of onions and beef stock, usually served with croutons and melted cheese on top. Dating back to Roman times, this was traditionally a peasant dish although the current version dates from the 18th century. The soup’s unique flavor comes from the caramelization of the onions, which often have brandy or sherry added during the slow-cooking process. If you’re in a soup mood, why not try Marseille’s traditional soupe de poisson à la rouille. Once a fisherman’s favorite, this soup is characterized by a dollop of garlic and saffron mayonnaise placed on top."
+    },
+    {
+      "name": "Coq au vin",
+      "src": "../images/cuisines/france/coq-au-vin-1.webp",
+      "info": "This quintessential French food was popularized by Julia Child, becoming one of her signature dishes. The dish sees chicken braised with wine, mushrooms, salty pork or bacon (lardons), mushrooms, onions, garlic and sometimes even a drop of brandy. Although the name translates as ‘rooster in wine’ – the braising is ideal for tougher birds – the recipe usually uses chicken or capon. The wine is typically Burgundy, although regional variations of the dish exist across France that use local wines. These include coq au vin jaune (Jura), coq au Riesling (Alsace), and coq au pourpre (Beaujolais nouveau). Believe it or not, there’s even a coq au Champagne (Champagne)."
+    },
+    {
+      "name": "Cassoulet",
+      "src": "../images/cuisines/france/cassoulet.jpg",
+      "info": "Cassoulet is a comfort dish of white beans stewed slowly with meat. The dish typically uses pork or duck but can include sausages, goose, mutton or whatever else the chef has lying around. This peasant dish originates from southern France and is popular in Toulouse, Carcassonne, and Castelnaudary. The name of the dish comes from the pot (cassole) that it’s traditionally baked in. This pot is a staple in many French homes, highlighting the popularity of this rich, hearty meal that’s perfect for those colder months."
+    },
+    {
+      "name": "Bœuf bourguignon",
+      "src": "../images/cuisines/france/boeuf-bourguignon.webp",
+      "info": "Dishes don’t get much more typically French than bœuf bourguignon. The dish hails from the same region as coq au vin – that’s Burgundy in eastern France – and there are similarities between the two dishes. Bœuf bourguignon is essentially a stew made from beef braised in red wine, beef broth, and seasoned vegetables including pearl onions and mushrooms. Originally a peasant dish, this recipe is now a staple in French restaurants around the world. Traditionally, the cheap cuts of meat would be tenderized in wine for two days to intensify the flavors, although some shortcuts can be taken. Every August in Burgundy, the Fête du Charolais celebrates the dish, along with plenty of music and w"
+    },
+    {
+      "name": "Chocolate soufflé",
+      "src": "../images/cuisines/france/chocolate-soufflé.webp",
+      "info": "The word soufflé comes from the French verb ‘to blow’ and, as the name suggests, this is a light, airy dessert. The dish dates back to the early 18th century and nowadays is a staple on dessert menus around the world. The crispy chocolatey crust is perfect for letting the creamy chocolate ooze out for a rich surprise. However, it doesn’t have to be sweet. In fact, cheese soufflés are just as delicious if you’re looking for something a little salt"
+    },
+    {
+      "name": "Flamiche",
+      "src": "../images/cuisines/france/flamiche.jpg",
+      "info": "Flamiche means ‘cake’ in Dutch and this dish originates from northern France, near the border with Belgium. It has a puff-pastry crust filled with cheese and vegetables and resembles a quiche. The traditional filling is leeks and cream, although various variations exist. There’s also a pizza-like version of flamiche, which comes without the top crust of the pie. For a southern French twist, try the thin crusty pissaladière, which has anchovies, onions, and olives."
+    }
+  ],
+  "japan": [
+    {
+      "name": "Sushi",
+      "src": "../images/cuisines/japan/sushi.jpeg",
+      "info": "Sushi is one of the best known Japanese foods around the world. It is offered in various ways and prices, from the entertaining kaiten-zushi (conveyor belt sushi), where visitors can enjoy sushi for a reasonable price of about 100 yen per plate, to high-end, long-established, traditional Edomae sushi (Edo-style sushi) where you will sit at a quiet counter to eat as the sushi is prepared right before your eyes. Sushi can be eaten with chopsticks or directly with your hand. However, there's one thing you should be careful about. When dipping the sushi in soy sauce, you should turn it over and apply the soy sauce to the neta, rather than the rice itself. This is to prevent the rice from sucking up too much soy sauce and erasing the original taste of the neta itself."
+    },
+    {
+      "name": "Unagi - Grilled Eel",
+      "src": "../images/cuisines/japan/unagi.jpg",
+      "info": "Unagi, or eel, is a fish known to be found mainly in rivers. In Japan, it is a delicacy typical in high-class Japanese dining. There are also many casual restaurants that specialize in unagi dishes. At unagi restaurants, you will be able to enjoy kabayaki, where the unagi is put on skewers and grilled with a special sauce containing soy sauce, mirin, sugar, and sake. Unadon, a dish of kabayaki on top of white rice, is also offered at these establishments."
+    },
+    {
+      "name": "Tempura",
+      "src": "../images/cuisines/japan/tempura.jpeg",
+      "info": "Tempura is a dish involving ingredients like seafood, meat, and vegetables covered in batter and deep-fried in oil. The batter usually contains flour and egg. Tempura is generally dipped in a special sauce called tentsuyu before eating. Tentsuyu is a sauce made of broth from kombu or dried bonito, mirin, and soy sauce mixed at a ratio of 4:1:1 and cooked. You can add ginger or grated radish to your liking for a more refreshing taste."
+    },
+    {
+      "name": "Soba (Buckwheat Noodles)",
+      "src": "../images/cuisines/japan/soba.jpeg",
+      "info": "Soba is a noodle dish made from buckwheat flour with water and flour, thinly spread and cut into noodles with widths of 1cm-2cm. After boiling the noodles in hot water, it is eaten dipped in cold soup, or by pouring hot soup over it. The soba broth (tsuyu) is typically made from kombu or dried bonito broth, seasoned with soy sauce and mirin, and is crucial for having a delicious soba experience. Soba is enjoyed hot or cold, making it an ideal dish year-round."
+    },
+    {
+      "name": "Yakitori - Grilled Chicken Skewers",
+      "src": "../images/cuisines/japan/yakitori.jpeg",
+      "info": "Yakitori is a popular food where chicken is cut into small pieces, then placed on bamboo skewers and grilled. It is often found on the menus of izakaya and casual restaurants, making it a good option for a night out in Japan with friends. It is especially delicious when paired with alcohol. Also, if you go to a Japanese festival, there is a good chance that food stalls will be selling this classic dish. Yakitori is ordered at restaurants by the part of the chicken. You will also find other types of meat and vegetables on skewers, too. It is usually seasoned lightly with salt when it comes, so take the first bite without adding extra condiments. You can eat right off the skewer."
+    },
+    {
+      "name": "Sukiyaki",
+      "src": "../images/cuisines/japan/sukiyaki.jpeg",
+      "info": " Sukiyaki is cooked in a shallow iron pan, traditionally enjoyed in the fall and winter in Japan. It became popular in Japan around the 19th century. Made both in homes and available on menus at restaurants, it is a dish you will want to try when you're craving something hearty. Sukiyaki is made with several different ingredients, like thin slices of beef, green onions, tomatoes, mushrooms, and tofu. Diners prepare the dish themselves by grilling the ingredients in the pan after pouring a few drops of sukiyaki sauce. After the ingredients are cooked thoroughly, to eat sukiyaki in its conventional way, you dip the meat or vegetable into a bowl of beaten egg. The result is a delicious and satisfying dish that goes great with rice and will warm you from the inside out during chilly days."
+    }
+  ],
+  "thailand": [
+    {
+      "name": "Massaman Curry",
+      "src": "../images/cuisines/thailand/massaman-curry.jpg",
+      "info": "No one has yet to pin down where exactly this rustic curry dish came from. Some historians believe it was brought over from Malaysia through Middle Eastern traders, as the name massaman originated from the archaic Thai word for Muslim, while others point to its history in the Thai royal court. Either way, massaman sets itself apart from other Thai curries by having less commonly used spices like cardamom, cinnamon, and anise. Coupled with its aromatic and complex paste usually fried in a pan with coconut cream and tamarind paste, you can expect a dish that packs both spicy and savoury flavours."
+    },
+    {
+      "name": "Pad Kra Prao",
+      "src": "../images/cuisines/thailand/pad-kra-prao.jpg",
+      "info": "The go-to dish for a Thai local when he is unsure about what to eat on a night out, this minced pork and rice à la carte dish can be eaten at any time of the day. Typically served alongside steamed jasmine rice, Pad Kra Prao comes with a side of fatty minced pork stir-fried with Thai holy basil and seasoned with fish sauce and chopped chilli. Other variations include beef, chicken, or seafood ingredients stir-fried with basil, cowpeas, bamboo shoots, and topped with a fried egg."
+    },
+    {
+      "name": "Kao Ka Moo",
+      "src": "../images/cuisines/thailand/kao-ka-moo.jpg",
+      "info": " A spectacle to behold when watching it prepped at a Thai food cart on the streets, this slow-braised stewed pork leg on rice dish is a crowd-pleaser at night markets. At roadside stalls, you’ll find Kao Ka Moo simmered in large aluminum pots with soy sauce and five-spice powder until the meat is succulent enough to slide off the bone. The braised meat is then chopped to thin strips on a large cutting board with cleavers and served on a bed of rice alongside bok choi, pickled vegetables, and boiled eggs with custardy yolk."
+    },
+    {
+      "name": "Khao Soi",
+      "src": "../images/cuisines/thailand/khao-soi.jpg",
+      "info": "An iconic Northern Thai staple, this yellow curry rice noodle soup comes in many different styles and can be found almost anywhere in Chiang Mai from roadside kitchens to fine-dining restaurants. With roots in nearby Myanmar and Laos, Northern Thai khao soi’s soup shares a similar spicy, coconut flavour as massaman curry. In a single bowl, both boiled egg noodles and deep-fried egg noodles are steeped in curry soup with green shallots, pickled cabbage, minced pork or chicken leg as toppings. Each serving usually comes with condiments like oil-fried chilli paste, coriander, and lime on the side. With hundreds of variations spread across Thailand, you’ll find the debate for the best Khao Soi in the country, especially in Chiang Mai, to be quite heated but with no apparent winner."
+    },
+    {
+      "name": "Yam Nua (Beef Salad)",
+      "src": "../images/cuisines/thailand/beef-salad.jpg",
+      "info": "A popular salad to make in a Phuket cooking class, this spicy and zesty salad is a refreshing alternative to the ubiquitous mango salad. Made with thinly sliced grilled beef tenderloin strips, tossed alongside sprigs of fresh spearmint, chopped shallots, onions, garlic, chilis, and seasoned with lime juice and fish sauce, yam nua excites the palate with both heat and acidity."
+    },
+    {
+      "name": "Kway Teow (noodle soup)",
+      "src": "../images/cuisines/thailand/noodle-soup.jpg",
+      "info": "As simple as a bowl of kway toew appears to the average diner, ordering one in Thailand can be an eye-opening experience. For those stumbling across a crowded roadside kitchen in Bangkok, you’ll usually find menus on the walls listing different types of noodles, soup, seasoning, and ingredients. Diners can mix and match these combinations however they want. But the most commonly ordered kway teow moo comes with rice noodles, pork tenderloins, offal, minced meat, fish balls, and vegetables. Each bowl is served alongside a plate of condiments including bean sprouts, chilli paste, lime, and chopped coriander."
+    }
+  ],
+  "spain": [
+    {
+      "name": "PAELLA – Famous Spanish rice dish",
+      "src": "../images/cuisines/spain/Spanish-paella.jpg",
+      "info": "Paella is considered to be a national dish of Spain. If someone asks you to name the top 3 Spanish dishes, your first thought most likely will be Spanish paella. This widely worshiped Spanish rice dish is the all-time most famous dish in Spain. This iconic Spanish food originates from the Spanish region of Valencia but it is eaten all over Spain. No visit to Spain is complete without tasting paella. Ah, you might like to know, paella in the Valencian language means pan.Spanish paella is traditionally flavored with Spanish saffron and rosemary."
+    },
+    {
+      "name": "GAZPACHO – Famous Spanish tomato soup",
+      "src": "../images/cuisines/spain/Spanish-gazpacho-soup.jpg",
+      "info": "Legendary gazpacho is basically a cold tomato soup. But, beyond any question, this famous dish from Spain is among the top 10 Spanish foods. In addition, gazpacho is one of the best tomato soups in the World overall. Spanish gazpacho originates from Andalusia but over time gazpacho has become a Spanish national dish loved by all Spaniards. Gazpacho is traditionally drunk from a glass or traditional Spanish bowl and it comes as an appetizer in Spain. Spanish gazpacho is a classic tapa dish and the ultimate summer soup in Spain. Spanish Gazpacho is one of the main dishes in Spain you simply can’t miss tasting while in Spain!"
+    },
+    {
+      "name": "Salmorejo",
+      "src": "../images/cuisines/spain/Salmorejo.jpg",
+      "info": " Salmorejo is a version of gazpacho originally coming from the town of Cordoba in Andalusia. It is made of pureed tomatoes, bread, garlic, and vinegar. Salmorejo is served with chopped egg or ham on the top. But if you are a vegetarian, you can order salmorejo without topping ham. Personally, I prefer salmorejo to gazpacho. In my opinion, salmorejo is one of the best Spanish food. Salmorejo recipe is one of the recipes from Spain I took home with me. If you are taking a trip to Seville and want to learn how to prepare authentic Andalucian salmorejo, this Spanish cooking class is for you."
+    },
+    {
+      "name": "Tortilla Espanola",
+      "src": "../images/cuisines/spain/Tortilla-espanola.jpg",
+      "info": "Spanish tortilla or also called Spanish omelette is the most common food in Spain and one of the most popular food in Spain too. Moreover, tortilla de patatas is another national dish of Spain and the typical food of Spain. Spanish tortilla Espanola is a simple tapas dish made of slow-cooked caramelized onions and potatoes in olive oil and eggs. This famous food from Spain looks more like a quiche than an omelet. Tortilla Espanola is served sliced or squeezed between bread into a sandwich (called bocadillo in Spanish)."
+    },
+    {
+      "name": "Croquetas",
+      "src": "../images/cuisines/spain/Spanish-croquettes.jpg",
+      "info": "When we talk about tapas food in Spain and common foods of Spain, Spanish croquettes are on the list for sure. Spanish croquettes are fried breadcrumbs and food leftovers tied with potatoes and bechamel sauce. Croquettes in Spain are made with jamon (cured ham), bacalao (codfish), creamy cheese (queso), local black sausage (morcilla), or Spanish blue cheese (queso de Cabrales). Crispy croquettes are typical Spanish tapas food."
+    },
+    {
+      "name": "Rabo De Toro",
+      "src": "../images/cuisines/spain/Rabo-de-torro.jpg",
+      "info": "Talking about delicacies in Spain and Spanish food in Spain, ‘rabo de toro‘ takes a special place in traditional Spanish cuisine. Rabo de toro is a famous Spanish bull’s tail stew. Rabo de toro is made by slowly cooking oxtail flavored with red wine, garlic, and thyme at low temperatures. It is an authentic Spanish dish. This typical Spanish dish comes from the town of Cordoba. Buttoday the bull’s tail is one of the most popular Spanish dishes, widely prepared in Spanish homes. Once a working-class meal of Spain, Rabo de toro dish has become a leading delicacy of Spanish gastronomy and one of the top Spanish dishes. To make it short, Rabo de toro belongs to the list of the famous dishes from Spain you definitely need to taste on your trip to Spain!"
+    }
+  ],
+  "turkey": [
+    {
+      "name": "Ezogelin corba",
+      "src": "../images/cuisines/turkey/ezogelin.jpg",
+      "info": "According to legend, this dish was dreamed up by an unhappily married woman named Ezo who was trying to win over her mother-in-law via her stomach. She concocted a zesty soup consisting of red lentils, domato salca (tomato paste -- sweet or hot), grated fresh tomatoes and onions, served with dried mint and pul biber (chili flakes) sprinkled on top. There's no proof it actually worked, but just in case, ezogelin (which literally translates to bride Ezo), originating from a small village near Gaziantep, is still the food of choice for brides-to-be."
+    },
+    {
+      "name": "Saksuka",
+      "src": "../images/cuisines/turkey/saksuka.jpg",
+      "info": "Turkish cuisine incorporates a huge range of vegetable dishes known as zeytinyagli yemegi -- foods cooked in olive oil. The majority are vegetable-based and include green beans, artichokes and of course, eggplants. One of the tastiest eggplant offerings is sasuka. Here silky purple skinned cubes of green flesh are cooked with zucchinis, garlic, tomatoes and chilli -- how much of the latter depending on where in Turkey it's made."
+    },
+    {
+      "name": "Kisir",
+      "src": "../images/cuisines/turkey/kisir.jpg",
+      "info": " Kisir is a salad made from fine bulgur wheat, tomatoes, garlic, parsley and mint. There are numerous versions from all over Turkey, but the Antakya one includes nar eksisi (sour pomegranate molasses) and pul biber (hot red chili flakes). They like it hot down south."
+    },
+    {
+      "name": "Mercimek kofte",
+      "src": "../images/cuisines/turkey/mercimek-kofte.jpg",
+      "info": "Known to Diyarbakir locals as belluh, mercimek kofte is a vegetarian delight. Made from red lentils, fine bulgur, salt, finely chopped onion, scallions, tomato and aci biber salca (hot red pepper paste) and crushed cilantro, they come in handy bite-sized servings. Just pop one of these nuggets of flavor onto a lettuce leaf, add a squeeze of lemon juice, roll it up and munch away."
+    },
+    {
+      "name": "Yaprak dolma",
+      "src": "../images/cuisines/turkey/yaprak-dolma.jpg",
+      "info": "In the Isparta version of yaprak dolma, rice is cooked with tomatoes, a bunch of parsley, onion, garlic, tomato paste, olive oil, black pepper, salt and water. A spoonful of this mixture is placed on a vine leaf, folded in and carefully rolled by hand into neat little cylinders. While leaves are sold at most street markets, the best ones come from a neighbor's tree, usually picked at midnight. Yaprak dolma are part of Turkish Aegean cuisine and sometimes include a pinch of cinnamon in the mix, a nod to the Rum people, Greeks born in Turkey."
+    },
+    {
+      "name": "Iskender kebab",
+      "src": "../images/cuisines/turkey/iskender-kebab.jpg",
+      "info": " Located in northwest Turkey, Bursa is famous for three things -- silk, the ski fields of Uludag and a type of kebab called Iskender. Apparently a gentleman of the same name first cooked this dish for workers in the city's Kayhan Bazaar back in 1867. Thin slices of doner meat are reverently laid over pieces of plump pide bread, smothered in freshly made tomato sauce, baptized with a dash of sizzling melted butter and served with a portion of tangy yoghurt, grilled tomato and green peppers."
+    }
+  ]
+}

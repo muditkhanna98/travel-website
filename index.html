@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Tourism page</title>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link rel="shortcut icon" href="images/travel-icon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="js/w3schoolsHTMLIncluder.js"></script>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/slider.css"/>
+
+</head>
+<body>
+<!--  including header -->
+<header>
+    <div w3-include-html="pages/header.html"></div>
+</header>
+
+<!--  including navigation -->
+<nav>
+    <div w3-include-html="pages/nav.html"></div>
+</nav>
+
+<!--main part -->
+<main class="index-page">
+    <div class="main-content">
+        <div class="country-wrapper-hidden" style="display: none">
+            <!--country image-->
+            <div class="country-image">
+
+            </div>
+            <!--country name-->
+            <span class="country-name"></span>
+            <!--country menu -->
+            <div class="add-links">
+                <ul>
+
+                </ul>
+            </div>
+            <!--information about country-->
+            <div class="country-info">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="home_slider">
+   <div class="slideshow-container">
+
+           <!-- Full-width images with number and caption text -->
+           <div class="mySlides fade">
+             <img src="images/slider/1.jpg">
+             <div class="text">Know more about France</div>
+         </div>
+
+         <div class="mySlides fade">
+             <img src="images/slider/2.jpg">
+             <div class="text">Welcome to beautiful city</div>
+         </div>
+         <div class="mySlides fade">
+             <img src="images/slider/3.jpg">
+             <div class="text">Explore the Turkey</div>
+         </div>
+
+         <!-- Next and previous buttons -->
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+ </div>
+</main>
+
+<!--including footer-->
+<footer>
+    <div w3-include-html="pages/footer.html"></div>
+</footer>
+
+<!--script for including other html pages-->
+<script>
+    includeHTML();
+</script>
+<script src="js/index.js"></script>
+<!--scroll to top button-->
+<button onclick="scrollToTop()" class="to-top fa-2x">
+    <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
+</button>
+<script src="js/main-javascript.js"></script>
+<script src="js/slider.js"></script>
+</body>
+</html>
